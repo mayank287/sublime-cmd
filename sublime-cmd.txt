@@ -1,0 +1,17 @@
+g++ --version
+
+
+
+{
+    "cmd": ["g++.exe", "-std=c++17", "${file}",
+            "-o", "${file_base_name}.exe",
+            "&&", "${file_base_name}.exe<inputf.in>outputf.out"],
+    "shell":true,
+    "working_dir":"$file_path",
+    "selector":"source.cpp"
+}
+“C:\MinGW\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits”
+g++ stdc++.h -std=c++17
+
+
+
